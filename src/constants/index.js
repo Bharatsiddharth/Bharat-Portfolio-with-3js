@@ -224,7 +224,7 @@ import {
           color: "blue-text-gradient",
         },
       ],
-      image: '',
+      image: 'https://images.unsplash.com/photo-1720649870436-5e772e52b830?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       source_code_link: "https://github.com/Bharatsiddharth/Bookstore-nodejs",
     },
 
@@ -250,7 +250,7 @@ import {
           color: "blue-text-gradient",
         },
       ],
-      image: "../",
+      image: "https://images.unsplash.com/photo-1720649870436-5e772e52b830?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       source_code_link: "https://github.com/Bharatsiddharth/Social-Media-Application",
     },
     
@@ -280,7 +280,7 @@ import {
           color: "blue-text-gradient",
         },
       ],
-      image: "",
+      image: "https://images.unsplash.com/photo-1720649870436-5e772e52b830?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       source_code_link: "https://github.com/Bharatsiddharth/we-think-elastic",
     },
     {
@@ -305,7 +305,7 @@ import {
           color: "blue-text-gradient",
         },
       ],
-      image: "../",
+      image: "https://images.unsplash.com/photo-1720649870436-5e772e52b830?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       source_code_link: "https://github.com/Bharatsiddharth/we-think-elastic",
     },
 
@@ -331,7 +331,7 @@ import {
           color: "blue-text-gradient",
         },
       ],
-      image: "../",
+      image: "https://images.unsplash.com/photo-1720649870436-5e772e52b830?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       source_code_link: "https://github.com/Bharatsiddharth/kettle",
     },
     {
@@ -356,7 +356,7 @@ import {
           color: "blue-text-gradient",
         },
       ],
-      image: "../",
+      image: "https://images.unsplash.com/photo-1720649870436-5e772e52b830?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       source_code_link: "https://github.com/Bharatsiddharth/TDP-Vista-clone",
     },
     {
@@ -381,7 +381,7 @@ import {
           color: "blue-text-gradient",
         },
       ],
-      image: "../",
+      image: "https://images.unsplash.com/photo-1720649870436-5e772e52b830?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       source_code_link: "https://github.com/Bharatsiddharth/LAZAREV--frontend-clone",
     },
     {
@@ -406,7 +406,7 @@ import {
           color: "blue-text-gradient",
         },
       ],
-      image: "../",
+      image: "https://images.unsplash.com/photo-1720649870436-5e772e52b830?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       source_code_link: "https://github.com/Bharatsiddharth/Significo-frontend-clone",
     },
 
@@ -434,7 +434,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: "",
+      image: 'https://images.unsplash.com/photo-1720649870436-5e772e52b830?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       source_code_link: "https://github.com/Bharatsiddharth/next-first-project",
     },
     
