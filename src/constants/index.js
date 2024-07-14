@@ -23,7 +23,11 @@ import {
     jobit,
     tripguide,
     threejs,
+    // Bookstore,
   } from "../assets";
+
+  // import img from '../assets/projectsImg/BookStore.png'
+
   
   export const navLinks = [
     {
@@ -149,32 +153,32 @@ import {
     // },
   ];
   
-  const testimonials = [
-    {
-      testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
-    },
-    {
-      testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
-    },
-    {
-      testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
-    },
-  ];
+  // const testimonials = [
+  //   {
+  //     testimonial:
+  //       "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+  //     name: "Sara Lee",
+  //     designation: "CFO",
+  //     company: "Acme Co",
+  //     image: "https://randomuser.me/api/portraits/women/4.jpg",
+  //   },
+  //   {
+  //     testimonial:
+  //       "I've never met a web developer who truly cares about their clients' success like Rick does.",
+  //     name: "Chris Brown",
+  //     designation: "COO",
+  //     company: "DEF Corp",
+  //     image: "https://randomuser.me/api/portraits/men/5.jpg",
+  //   },
+  //   {
+  //     testimonial:
+  //       "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+  //     name: "Lisa Wang",
+  //     designation: "CTO",
+  //     company: "456 Enterprises",
+  //     image: "https://randomuser.me/api/portraits/women/6.jpg",
+  //   },
+  // ];
   
   const projects = [
     {
@@ -183,22 +187,257 @@ import {
         "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
       tags: [
         {
-          name: "react",
+          name: "Nodejs",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "EJS",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "Express",
           color: "pink-text-gradient",
         },
       ],
       image: "https://images.unsplash.com/photo-1720649870436-5e772e52b830?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       source_code_link: "https://github.com/Bharatsiddharth/file-handling---vs-code-simple-",
     },
+    {
+      name: "BookStore",
+      description:
+        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      tags: [
+        {
+          name: "Nodejs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "MongoDb",
+          color: "green-text-gradient",
+        },
+        {
+          name: "EJS",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Bootstrap",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: '',
+      source_code_link: "https://github.com/Bharatsiddharth/Bookstore-nodejs",
+    },
+
+    {
+      name: "Social Media",
+      description:
+        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      tags: [
+        {
+          name: "Nodejs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "MongoDb",
+          color: "green-text-gradient",
+        },
+        {
+          name: "EJS",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Tailwind",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: "../",
+      source_code_link: "https://github.com/Bharatsiddharth/Social-Media-Application",
+    },
+    
+  ];
+
+
+  const FrontEndProjects = [
+    {
+      name: "Brain Space",
+      description:
+        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      tags: [
+        {
+          name: "HTML",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "CSS",
+          color: "green-text-gradient",
+        },
+        {
+          name: "JAVASCRIPT",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Gsap",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: "",
+      source_code_link: "https://github.com/Bharatsiddharth/we-think-elastic",
+    },
+    {
+      name: "We Think Elastic",
+      description:
+        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      tags: [
+        {
+          name: "HTML",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "CSS",
+          color: "green-text-gradient",
+        },
+        {
+          name: "JAVASCRIPT",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Gsap",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: "../",
+      source_code_link: "https://github.com/Bharatsiddharth/we-think-elastic",
+    },
+
+    {
+      name: "Kettle",
+      description:
+        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      tags: [
+        {
+          name: "HTML",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "CSS",
+          color: "green-text-gradient",
+        },
+        {
+          name: "JAVASCRIPT",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Gsap",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: "../",
+      source_code_link: "https://github.com/Bharatsiddharth/kettle",
+    },
+    {
+      name: "TDP Vista",
+      description:
+        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      tags: [
+        {
+          name: "HTML",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "CSS",
+          color: "green-text-gradient",
+        },
+        {
+          name: "JAVASCRIPT",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Gsap",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: "../",
+      source_code_link: "https://github.com/Bharatsiddharth/TDP-Vista-clone",
+    },
+    {
+      name: "Lazarev",
+      description:
+        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      tags: [
+        {
+          name: "HTML",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "CSS",
+          color: "green-text-gradient",
+        },
+        {
+          name: "JAVASCRIPT",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Gsap",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: "../",
+      source_code_link: "https://github.com/Bharatsiddharth/LAZAREV--frontend-clone",
+    },
+    {
+      name: "Significo",
+      description:
+        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      tags: [
+        {
+          name: "HTML",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "CSS",
+          color: "green-text-gradient",
+        },
+        {
+          name: "JAVASCRIPT",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Gsap",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: "../",
+      source_code_link: "https://github.com/Bharatsiddharth/Significo-frontend-clone",
+    },
+
+   
+    
+  ];
+
+
+  const Nextjsprojects = [
+    {
+      name: "Popper",
+      description:
+        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      tags: [
+        {
+          name: "Nextjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Tailwind",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Gsap",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: "",
+      source_code_link: "https://github.com/Bharatsiddharth/next-first-project",
+    },
     
   ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, technologies, experiences, testimonials, projects, FrontEndProjects,Nextjsprojects };

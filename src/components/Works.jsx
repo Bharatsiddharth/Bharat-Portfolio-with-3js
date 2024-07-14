@@ -6,6 +6,8 @@ import { styles } from "../styles";
 import { github } from "../assets";
 import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
+import { FrontEndProjects } from "../constants";
+import { Nextjsprojects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
 
 const ProjectCard = ({
@@ -88,11 +90,40 @@ const Works = () => {
         </motion.p>
       </div>
 
-      <div className='mt-20 flex flex-wrap gap-7'>
+     
+
+      <div className=" mt-20">
+      <p className={`${styles.sectionSubText} `}>FrontEndProjects</p>
+      </div>
+
+        <div className="mt-20 flex flex-wrap gap-7" >
+        {FrontEndProjects.map((project, index) => (
+          <ProjectCard key={`project-${index}`} index={index} {...project} />
+        ))}
+        </div>
+
+
+        <div className=" mt-20">
+      <p className={`${styles.sectionSubText} `}>Nextjs Project</p>
+      </div>
+
+        <div className="mt-20 flex flex-wrap gap-7" >
+        {Nextjsprojects.map((project, index) => (
+          <ProjectCard key={`project-${index}`} index={index} {...project} />
+        ))}
+        </div> 
+
+      <div className=" mt-20">
+      <p className={`${styles.sectionSubText} `}>BackEnd</p>
+      </div>
+
+        <div className='mt-20 flex flex-wrap gap-7'>
+        
         {projects.map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}
       </div>
+
     </>
   );
 };
