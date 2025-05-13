@@ -200,6 +200,7 @@ import {
         },
       ],
       image: "https://images.unsplash.com/photo-1720649870436-5e772e52b830?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      liveLink: "https://bharatsiddharth.github.io/TDP-Vista-clone/",
       source_code_link: "https://github.com/Bharatsiddharth/file-handling---vs-code-simple-",
     },
     {
@@ -251,6 +252,7 @@ import {
         },
       ],
       image: "https://images.unsplash.com/photo-1720649870436-5e772e52b830?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      liveLink: "https://bharatsiddharth.github.io/TDP-Vista-clone/",
       source_code_link: "https://github.com/Bharatsiddharth/Social-Media-Application",
     },
     
@@ -281,6 +283,7 @@ import {
         },
       ],
       image: "https://images.unsplash.com/photo-1720649870436-5e772e52b830?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      liveLink: "https://bharatsiddharth.github.io/TDP-Vista-clone/",
       source_code_link: "https://github.com/Bharatsiddharth/we-think-elastic",
     },
     {
@@ -306,6 +309,7 @@ import {
         },
       ],
       image: "https://images.unsplash.com/photo-1720649870436-5e772e52b830?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      liveLink: "https://bharatsiddharth.github.io/TDP-Vista-clone/",
       source_code_link: "https://github.com/Bharatsiddharth/we-think-elastic",
     },
 
@@ -331,7 +335,8 @@ import {
           color: "blue-text-gradient",
         },
       ],
-      image: "https://images.unsplash.com/photo-1720649870436-5e772e52b830?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      image: "/src/assets/projectImage/kettle.png",
+      liveLink: "https://kettle-eta.vercel.app/",
       source_code_link: "https://github.com/Bharatsiddharth/kettle",
     },
     {
@@ -356,8 +361,9 @@ import {
           color: "blue-text-gradient",
         },
       ],
-      image: "https://images.unsplash.com/photo-1720649870436-5e772e52b830?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      image: "/src/assets/projectImage/tdp.png",
       source_code_link: "https://github.com/Bharatsiddharth/TDP-Vista-clone",
+      liveLink: "https://bharatsiddharth.github.io/TDP-Vista-clone/",
     },
     {
       name: "Lazarev",
@@ -382,6 +388,7 @@ import {
         },
       ],
       image: "https://images.unsplash.com/photo-1720649870436-5e772e52b830?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      liveLink: "https://bharatsiddharth.github.io/TDP-Vista-clone/",
       source_code_link: "https://github.com/Bharatsiddharth/LAZAREV--frontend-clone",
     },
     {
@@ -407,6 +414,7 @@ import {
         },
       ],
       image: "https://images.unsplash.com/photo-1720649870436-5e772e52b830?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      liveLink: "https://bharatsiddharth.github.io/TDP-Vista-clone/",
       source_code_link: "https://github.com/Bharatsiddharth/Significo-frontend-clone",
     },
 
@@ -437,7 +445,84 @@ import {
       image: 'https://images.unsplash.com/photo-1720649870436-5e772e52b830?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       source_code_link: "https://github.com/Bharatsiddharth/next-first-project",
     },
+    {
+      name: "Creator ants",
+      description:
+        "Built a responsive and modern static website for a client using Next.js and Tailwind CSS. The site showcases services and brand identity with optimized performance and clean design.",
+      tags: [
+        {
+          name: "Nextjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Tailwind",
+          color: "green-text-gradient",
+        },
+        {
+          name: "AOS",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: '/src/assets/projectImage/image.png',
+      liveLink:"https://creator-ants.vercel.app/",
+      source_code_link: "https://github.com/Bharatsiddharth/next-first-project",
+    },
+    {
+      name: "Premium Asset Solutions",
+      description:
+        "Built a responsive and modern static website for a client using Next.js and Tailwind CSS. The site showcases services and brand identity with optimized performance and clean design.",
+      tags: [
+        {
+          name: "Nextjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Tailwind",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Typescript",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: '/src/assets/projectImage/premium.png',
+      liveLink:"https://ai-website-gilt.vercel.app/",
+      source_code_link: "https://github.com/Bharatsiddharth/AI_website",
+    },
     
   ];
+
+
+  const MERN = [
+    {
+      name: "Udyogi",
+      description:
+        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      tags: [
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Tailwind",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Mongodb",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Nodejs",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Express js",
+          color: "green-text-gradient",
+        },
+      ],
+      image: '/src/assets/projectImage/udyogi.png',
+      source_code_link: "https://github.com/Bharatsiddharth/next-first-project",
+    },
+  ]
   
   export { services, technologies, experiences, testimonials, projects, FrontEndProjects,Nextjsprojects };

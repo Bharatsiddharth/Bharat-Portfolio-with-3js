@@ -28,11 +28,11 @@ const ProjectCard = ({
         }}
         className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full'
       >
-        <div className='relative w-full h-[230px]'>
+        <div className='relative w-full h-[200px]'>
           <img
             src={image}
             alt='project_image'
-            className='w-full h-full object-cover rounded-2xl'
+            className='w-full h-full object-cover rounded-xl'
           />
 
           <div className='absolute inset-0 flex justify-end m-3 card-img_hover'>
@@ -43,7 +43,7 @@ const ProjectCard = ({
               <img
                 src={github}
                 alt='source code'
-                className='w-1/2 h-1/2 object-contain'
+                className='w-1/2 h-1/2  object-contain'
               />
             </div>
           </div>
@@ -90,39 +90,41 @@ const Works = () => {
         </motion.p>
       </div>
 
-     
+
 
       <div className=" mt-20">
-      <p className={`${styles.sectionSubText} `}>FrontEndProjects</p>
+        <p className={`${styles.sectionSubText} `}>FrontEndProjects</p>
       </div>
 
-        <div className="mt-20 flex flex-wrap gap-7" >
+      <div className="mt-20 flex flex-wrap gap-7" >
         {FrontEndProjects.map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}
-        </div>
-
-
-        <div className=" mt-20">
-      <p className={`${styles.sectionSubText} `}>Nextjs Project</p>
       </div>
 
-        <div className="mt-20 flex flex-wrap gap-7" >
+
+      <div className=" mt-20">
+        <p className={`${styles.sectionSubText} `}>Nextjs Project</p>
+      </div>
+
+      <div className="mt-20 flex flex-wrap gap-7" >
         {Nextjsprojects.map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}
-        </div> 
-
-      <div className=" mt-20">
-      <p className={`${styles.sectionSubText} `}>BackEnd</p>
       </div>
 
-        <div className='mt-20 flex flex-wrap gap-7'>
-        
+      <div className=" mt-20">
+        <p className={`${styles.sectionSubText} `}>BackEnd</p>
+      </div>
+
+      <div className='mt-20 flex flex-wrap gap-7'>
+
         {projects.map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}
       </div>
+
+      
 
     </>
   );
