@@ -15,8 +15,8 @@ const ProjectCard = ({
   name,
   description,
   tags,
-  image,
   source_code_link,
+  liveLink,
 }) => {
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
@@ -28,32 +28,32 @@ const ProjectCard = ({
         }}
         className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full'
       >
-        <div className='relative w-full h-[200px]'>
-          <img
-            src={image}
-            alt='project_image'
-            className='w-full h-full object-cover rounded-xl'
-          />
-
-          <div className='absolute inset-0 flex justify-end m-3 card-img_hover'>
-            <div
-              onClick={() => window.open(source_code_link, "_blank")}
-              className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
-            >
-              <img
-                src={github}
-                alt='source code'
-                className='w-1/2 h-1/2  object-contain'
-              />
-            </div>
+        {/* Top-right Source Code Icon */}
+        <div className='absolute top-4 right-4'>
+          <div
+            onClick={() => window.open(source_code_link, "_blank")}
+            className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
+          >
+            <img
+              src={github}
+              alt='source code'
+              className='w-1/2 h-1/2 object-contain'
+            />
           </div>
         </div>
 
+        {/* Project Title & Description */}
         <div className='mt-5'>
-          <h3 className='text-white font-bold text-[24px]'>{name}</h3>
+          <h3
+            onClick={() => window.open(liveLink, "_blank")}
+            className='text-white font-bold text-[24px] cursor-pointer'
+          >
+            {name}
+          </h3>
           <p className='mt-2 text-secondary text-[14px]'>{description}</p>
         </div>
 
+        {/* Tags */}
         <div className='mt-4 flex flex-wrap gap-2'>
           {tags.map((tag) => (
             <p
@@ -68,6 +68,7 @@ const ProjectCard = ({
     </motion.div>
   );
 };
+
 
 const Works = () => {
   return (
@@ -104,7 +105,7 @@ const Works = () => {
 
 
       <div className=" mt-20">
-        <p className={`${styles.sectionSubText} `}>Nextjs Project</p>
+        <p className={`${styles.sectionSubText} `}>React/Nextjs Project</p>
       </div>
 
       <div className="mt-20 flex flex-wrap gap-7" >

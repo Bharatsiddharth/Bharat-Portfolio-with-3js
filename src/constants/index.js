@@ -489,6 +489,53 @@ import {
       liveLink:"https://ai-website-gilt.vercel.app/",
       source_code_link: "https://github.com/Bharatsiddharth/AI_website",
     },
+
+    {
+      name: "Movies App",
+      description:
+        "Built a responsive and modern static website for a client using Next.js and Tailwind CSS. The site showcases services and brand identity with optimized performance and clean design.",
+      tags: [
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Tailwind",
+          color: "green-text-gradient",
+        },
+        {
+          name: "axios",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: '/src/assets/projectImage/premium.png',
+      liveLink:"https://movie-app-dusky-one.vercel.app/",
+      source_code_link: "https://github.com/Bharatsiddharth/Movie-App",
+    },
+
+
+     {
+      name: "Botique",
+      description:
+        "Built a responsive and modern static website for a client using Next.js and Tailwind CSS. The site showcases services and brand identity with optimized performance and clean design.",
+      tags: [
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Tailwind",
+          color: "green-text-gradient",
+        },
+        {
+          name: "axios",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: '/src/assets/projectImage/premium.png',
+      liveLink:"https://botique-website-two.vercel.app/",
+      source_code_link: "https://github.com/Bharatsiddharth/BotiqueWebsite",
+    },
     
   ];
 
